@@ -1,0 +1,7 @@
+[package]
+name = "the-search-thing-backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fff-search = { version = "=0.10.5", default-features = false, features = ["ripgrep"] }
